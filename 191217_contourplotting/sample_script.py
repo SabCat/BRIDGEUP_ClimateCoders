@@ -1,14 +1,14 @@
 #Import packages
 
 #Create functions
-def hello(name):
-	print('Hello',name)
+def subtract(number1,number2):
+	ans=number1-number2
+	print(ans)
 
 #Main script
 def main():
 	
-	name = 'Beyonce'
-	hello(name)
+	subtract(number1=12, number2=6)
 
 #Run script
 if __name__ == '__main__':
